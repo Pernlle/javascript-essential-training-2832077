@@ -9,3 +9,7 @@
   </head>
   <body></body>
 </html>
+--> JS module er en nyere måde at indlæse JS filer på. Det betyder at typen
+module gør at den 'automatisk' sættes til defer, og kun executes efter alt andet
+et sket - at alle andre moduler er loadet. Dette sker for at sørge for at alle
+moduler et tilgængelige før rendering.

@@ -1,5 +1,6 @@
 /**
  * Create a Backpack object, populate some HTML to display its properties.
+ * Hvis consollen åbnes i browseren og der (i dette tilfælde) skrives 'backpack' vil disse komme frem med samme værdier, som beskrevet her - dog i alfabetisk orden.
  */
 
 // Single line comment

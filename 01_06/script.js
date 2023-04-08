@@ -1,5 +1,9 @@
 /**
  * Create a Backpack object, populate some HTML to display its properties.
+ * Parameter kommentaerer er til for at give et overblik.
+ * Semikolon og spaces bliver ordnet af prettier og eslint, så dette behøver jeg ikke tænke på
+ *    Eslint gør det nemmere at finde fejl i koden og hjælper til at ryde op i det.
+ *    Prettier gør syntaksen ren og formaterer koden så den er ensformigt efter den stadard, som er indstillet (DETTE GØRES OGSÅ PÅ GEM FUNKTION (FILE_PREFRENCES_SETTINGS_FORMATONSAVE_CHECK))
  */
 
 // Single line comment
@@ -7,6 +11,11 @@
 /* Multi-line comment
 See! this line is also commented out! */
 
+/**
+ * Function updataBackpack()
+ * Output HTML
+ * @param {string}} update
+ */
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
   main.innerHTML = markup(backpack);

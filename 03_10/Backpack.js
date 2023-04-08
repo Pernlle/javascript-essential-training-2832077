@@ -3,6 +3,7 @@
  *
  * Class declaration: class Name {}
  * Class expression:  const Name = class {}
+ * Valget mellem en declaration eller expression er personlig, da de gør det samme. 
  */
 
 class Backpack {
